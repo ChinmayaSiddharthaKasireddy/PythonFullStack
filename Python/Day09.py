@@ -63,3 +63,4 @@ print(student)
 student = {"name": "Ravi", "age": 22}
 print("name" in student) # Membership Operators
 print("course" not in student)
+print("age" in student)
