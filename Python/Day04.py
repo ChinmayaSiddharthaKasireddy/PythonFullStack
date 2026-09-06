@@ -49,3 +49,4 @@ print(d, type(x)) #Converting int to boolean
 d = [('name', 'teja'), ('batch', '22'), ('subject', 'python')]
 dict(d)
 
+
