@@ -72,3 +72,4 @@ age = 22
 score = 89.456
 
 print("Name: {} | Age: {} | Score: {:.1f}".format(name, age, score))
+print("Name: {} | Age: {} | Score: {:.1f}".format(name, age, score))
