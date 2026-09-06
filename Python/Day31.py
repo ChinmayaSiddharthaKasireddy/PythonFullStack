@@ -28,6 +28,8 @@ import re
 text = "Phone: 123-456-7890"
 result = re.subn(r'\d', '#', text)
 print(result)
+result = re.subn(r'\d', '*', text)
+print(result)
 
 import re
 text = "apple,banana;orange-grape"
@@ -43,7 +45,6 @@ for email in emails:
         print(f"{email} is valid gmail address:")
     else:
         print(f"{email} is not valid")
-        
         
 
 
