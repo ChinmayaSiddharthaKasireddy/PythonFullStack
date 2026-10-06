@@ -1,0 +1,28 @@
+Normalization is the process of organizing data in a database to reduce data redundancy and avoid data anomalies.
+
+Why do we use Normalization?
+
+Important objectives:
+
+- Reduce data redundancy → Avoid storing the same data repeatedly.
+- Avoid insertion anomaly → We should be able to insert new data without unnecessary data.
+- Avoid update anomaly → Updating data in one place should not require multiple updates.
+- Avoid deletion anomaly → Deleting one record should not accidentally remove important information.
+- Improve data integrity → Keep data accurate and consistent.
+
+Table
+Primary Key
+Non-key Attributes
+Student
+RollNo
+SName, Branch
+Branch
+Branch
+HODName
+StudentLanguage
+(RollNo,Language)
+–
+
+1NF: Atomic values, no multi-valued cells
+2NF: Removed partial dependency (SName and Branch moved to Student table)
+3NF: Removed transitive dependency (HODName moved to Branch table)
